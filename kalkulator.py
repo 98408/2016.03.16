@@ -3,4 +3,9 @@ def dodawanie():
 	b=int(input("Podaj b"))
 	print(a+b)
 	
+def get_info():
+	return "To jest program kalkulator stworzony przeze mnie"
+	
+ptint(get_info())	
 dodawanie()
+input()
